@@ -1,0 +1,122 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+}
+/* nav*/
+.navbar{
+    padding: 15px;
+      top: 0;
+      z-index: 1020;
+      width: 100%;
+      background-color: #727272;
+
+}
+ .navbar-nav li{
+    padding-right: 16px;
+}
+.nav-link{
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+/* first div */
+
+.containerr{
+    width: 100% ;
+    padding: 24px;
+    background-color: #52a0ca;
+    color: cornsilk;
+    
+}
+.containerr .text  h2{
+    font-size: 40px;
+font-weight: 600;
+text-transform:uppercase;
+margin: 16px 0;
+}
+.containerr .text .light-f{
+width: 8%;
+border-top: 2px solid #0000aa;
+}
+.containerr .text p{
+margin: 20px auto;
+}
+
+/* our story */
+
+.story h1{
+
+    margin: 100px 0 0 100px;
+    padding: 10px 15px ;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    color: #52a0ca;
+
+}
+.story .light{
+    width: 5%;
+    margin-left: 115px;
+border-top: 2px solid #0000aa;
+
+}
+.inf
+{
+margin-left: 115px;
+}
+.inf p{
+    font-family: 'UniversLTPro-55Roman', sans-serif;
+    font-size: 20px;
+    line-height: 1.25;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    padding-top: 5px;
+}
+/*content*/
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.bg_navy {
+    background: #0b2b4b;
+    color: #fff;
+    padding: 50px ;
+   
+}
+h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'UniversLTPro-65Bold';
+    letter-spacing: 1px;
+    
+}
+img.bg_image {
+    z-index: -1;
+    margin: -200px 0px 80px 0px;
+}
+.alignright {
+    display: inline;
+    float: right;
+    position: relative;
+}
+.light-md{
+    width: 10%;
+    border-top: 1px solid orange;
+    margin-left: 0;
+}
+
+
+
+
+/* media query*/
+@media (max-width:572px){
+    .bg-img{
+        margin: 5rem auto;
+       
+    }
+}
